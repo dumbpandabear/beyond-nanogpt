@@ -66,33 +66,37 @@ systems fundamentals like GPU communication algorithms and data/tensor paralleli
 
 ## TODO
 ### Core
-- [] Basic Transformer
-- [] Vanilla Self-Attention
-- [] Multi-head Self-Attention
+- [ ] Basic Transformer
+- [ ] Vanilla Self-Attention
+- [ ] Multi-head Self-Attention
 
 ### Optimizing Inference
-- [] KV Caching
-- [] RoPE Embeddings
-- [] Speculative Decoding
+- [ ] KV Caching
+- [ ] RoPE Embeddings
+- [ ] Speculative Decoding
 
 ### MLSys
-- [] GPU Comms
-- [] Fused Softmax Forward + Backward
-- [] GEMM
-- [] Flash Attention Forward
-- [] Flash Attention Backward
+- [ ] GPU Comms
+- [ ] Fused Softmax Forward + Backward
+- [ ] GEMM
+- [ ] Flash Attention Forward
+- [ ] Flash Attention Backward
 
 ### Distributed Training
-- [] Distributed Data Parallel
-- [] Tensor Parallel
+- [ ] Distributed Data Parallel
+- [ ] Tensor Parallel
 
 ### Attention Variants
-- [] Linear Attention
-- [] Multi-latent Attention
-- [] Sparse Attention
+- [ ] Linear Attention
+- [ ] Multi-latent Attention
+- [ ] Sparse Attention
 
 ### LM Tricks
-- [] Multi-token Prediction
+- [ ] Multi-token Prediction
+
+### Bonus
+- [ ] Train Small Embedding and Reranking Model
+- [ ] Sparse and Dense Retrieval
 
 
 ## Current Implementations and Roadmap
