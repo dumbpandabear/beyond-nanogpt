@@ -64,6 +64,35 @@ systems fundamentals like GPU communication algorithms and data/tensor paralleli
    Arguments are specified at the bottom of each file. 
    Jupyter notebooks are meant to be stepped through.
 
+## TODO
+### Core
+- [] Basic Transformer
+- [] Vanilla Self-Attention
+- [] Multi-head Self-Attention
+
+### Optimizing Inference
+- [] KV Caching
+- [] RoPE Embeddings
+- [] Speculative Decoding
+
+### MLSys
+- [] GPU Comms
+- [] Fused Softmax Forward + Backward
+- [] GEMM
+- [] Flash Attention Forward
+- [] Flash Attention Backward
+
+### Distributed Training
+- [] Distributed Data Parallel
+- [] Tensor Parallel
+
+### Attention Variants
+- [] Linear Attention
+- [] Multi-latent Attention
+- [] Sparse Attention
+
+### LM Tricks
+- [] Multi-token Prediction
 
 
 ## Current Implementations and Roadmap
