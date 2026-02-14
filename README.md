@@ -180,13 +180,15 @@ Asterisks (*) denote particularly tricky implementations.
 - [ ] Ring Attention (Context Parallel)
 - [ ] Paged Attention
 - [ ] Continuous Batching 
-- [ ] Triton Kernels `mlsys/kernels`
+- [x] Triton Kernels `mlsys/kernels`
    - [x] Vector Addition `vector_add.py`
-   - [x] Fused Softmax Forward + Backward `softmax.py`
-   - [ ] Matrix Multiplication (GEMM) Forward + Backward 
-   - [ ] Layer Normalization Forward + Backward 
+   - [x] 1D Convolution (naive + tiled) `conv1d.py`
+   - [x] 2D Strided Copy `copy2d.py`
+   - [x] LayerNorm Forward `layernorm.py`
+   - [x] Reverse Array `reverse_array.py`
+   - [x] SwiGLU Activation `swiglu.py`
+   - [x] Tiled GEMM `tiled_gemm.py`
    - [ ] FlashAttention Forward 
-   - [ ] FlashAttention Backward 
 
 ### Evals
 
